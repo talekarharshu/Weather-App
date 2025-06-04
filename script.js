@@ -24,30 +24,30 @@
         const condition = data.weather[0].main;
         switch (condition) {
           case "Clear":
-            weatherIcon.src = "/images/clear.png";
+            weatherIcon.src = "images/clear.png";
             break;
           case "Clouds":
-            weatherIcon.src = "/images/clouds.png";
+            weatherIcon.src = "images/clouds.png";
             break;
           case "Rain":
-            weatherIcon.src = "/images/Rain.png";
+            weatherIcon.src = "images/Rain.png";
             break;
           case "Drizzle":
-            weatherIcon.src = "/images/Drizzle.png";
+            weatherIcon.src = "images/Drizzle.png";
             break;
           case "Thunderstorm":
-            weatherIcon.src = "/images/Thunderstorm.png";
+            weatherIcon.src = "images/Thunderstorm.png";
             break;
           case "Snow":
-            weatherIcon.src = "/images/Snow.png";
+            weatherIcon.src = "images/Snow.png";
             break;
           case "Mist":
           case "Haze":
           case "Fog":
-            weatherIcon.src = "/images/Mist.png";
+            weatherIcon.src = "images/Mist.png";
             break;
           default:
-            weatherIcon.src = "/images/clear.png";
+            weatherIcon.src = "images/clear.png";
         }
       } catch (error) {
         alert("Something went wrong. Please try again.");
